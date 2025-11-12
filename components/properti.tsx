@@ -8,9 +8,7 @@ import { useState, useMemo } from "react"
 import { BedDoubleIcon, BathIcon, LandPlotIcon, BadgeCheckIcon, XIcon, ZoomInIcon, ZoomOutIcon } from "./icons"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 
-function formatIDR(value: number) {
-  return value.toLocaleString('id-ID', { style: 'currency', currency: 'IDR', maximumFractionDigits: 0 })
-}
+
 
 function SimulasiKPRContent({
   harga,
@@ -342,12 +340,11 @@ export default function Properties() {
     {
       id: 1,
       images: [
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761464611/Salinan_0509_th_jpg_zp1rnc.avif",
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761464610/Salinan_0509_th_4_snvn3o.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1762964977/th-slwi-47-2_dhu3rx.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1762964976/th-slwi-47-1_afpm6g.avif",
       ],
       floorPlan: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1761481943/Screenshot_2025-10-26_at_13.06.43_i40a82.avif",
       name: "Tipe 47/92",
-      price: "300.000.000",
       bedrooms: 1,
       bathrooms: 1,
       area: "47",
@@ -363,7 +360,6 @@ export default function Properties() {
       ],
       floorPlan: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1761481944/Screenshot_2025-10-26_at_13.06.52_bl2sjd.avif",
       name: "Tipe 45/84",
-      price: "350.000.000",
       bedrooms: 2,
       bathrooms: 1,
       area: "45",
@@ -374,12 +370,11 @@ export default function Properties() {
     {
       id: 3,
       images: [
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761464611/Salinan_0509_th_jpg_zp1rnc.avif",
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761464610/Salinan_0509_th_4_snvn3o.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1762964978/th-slwi-54-1_e26ryi.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1762964978/th-slwi-54-2_czf2dp.avif",
       ],
       floorPlan: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1761481944/Screenshot_2025-10-26_at_13.07.00_cdja9w.avif",
       name: "Tipe 54/84",
-      price: "420.000.000",
       bedrooms: 2,
       bathrooms: 1,
       area: "54",
@@ -395,7 +390,6 @@ export default function Properties() {
       ],
       floorPlan: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1761481945/Screenshot_2025-10-26_at_13.07.08_zojk9t.avif",
       name: "Tipe 60/112",
-      price: "430.000.000",
       bedrooms: 2,
       bathrooms: 1,
       area: "60",
@@ -411,7 +405,6 @@ export default function Properties() {
       ],
       floorPlan: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1761481943/Screenshot_2025-10-26_at_13.07.16_lzkjwr.avif",
       name: "Tipe 52/88",
-      price: "430.000.000",
       bedrooms: 2,
       bathrooms: 1,
       area: "52",
@@ -427,7 +420,6 @@ export default function Properties() {
       ],
       floorPlan: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1761481943/Screenshot_2025-10-26_at_13.07.26_v8yug9.avif",
       name: "Tipe 69/140",
-      price: "480.000.000",
       bedrooms: 2,
       bathrooms: 1,
       area: "69",
@@ -475,7 +467,6 @@ export default function Properties() {
     images: string[]
     floorPlan: string
     name: string
-    price: string
     bedrooms: number
     bathrooms: number
     area: string
@@ -1044,12 +1035,9 @@ export default function Properties() {
                       </div>
                     </div>
 
-                    <h3 className="modal-subtitle">Harga</h3>
-                    <div className="modal-price">Rp {selectedProperty.price}</div>
-
                     <div className="modal-cta">
                       <Link
-                        href="https://wa.me/628170031130?text=Halo,%20saya%20tertarik%20dengan%20properti%20Sapphire%20Aesthetic%20Slawi"
+                        href="https://wa.me/628170031130?text=Halo,%20saya%20tertarik%20dengan%20properti%20Sapphire%20Townhouse%20Slawi"
                         className="modal-cta-button"
                       >
                         Hubungi Kami

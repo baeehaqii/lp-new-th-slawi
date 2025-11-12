@@ -17,21 +17,20 @@ export default function Testimonials() {
     const testimonials: Testimonial[] = [
         {
             id: 1,
-            name: "Ibu Rossie",
+            name: "Maulana H.",
             location: "Tegal, Indonesia",
-            image: "https://res.cloudinary.com/dqobwse9q/image/upload/v1755435664/Screenshot_2025-08-17_at_19-59-13_Sapphire_Griya_Modern_Official_Perumahan_Tegal_Slawi_Brebes_sapphiregriyamodern_Instagram_photos_and_videos_t4hycn.png",
+            image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1762656135/download_cszbzm.png",
             rating: 5,
-            text: "Saya sangat senang dengan pengalaman membeli rumah di Sapphire Tegal. Tim marketing sangat membantu dan ramah. Prosesnya cepat dan mudah. Saya merasa sangat puas dengan rumah yang saya beli. Terima kasih Sapphire Grup!",
+            text: "Perumahan impian banget karena lokasinya strategis, desain modern, dan paling penting harga terjangkau. Ada taman dan fasilitas lengkap, jadi nyaman di sini. Cocok buat keluarga muda.",
         },
         {
             id: 2,
-            name: "Bapak Handy",
+            name: "Ardiani",
             location: "Tegal, Indonesia",
-            image: "https://res.cloudinary.com/dqobwse9q/image/upload/v1755435663/Screenshot_2025-08-17_at_20-00-42_Sapphire_Griya_Modern_Official_Perumahan_Tegal_Slawi_Brebes_sapphiregriyamodern_Instagram_photos_and_videos_ybu2pd.png",
+            image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1762656135/download_cszbzm.png",
             rating: 5,
-            text: "Saya sangat puas dengan pelayanan Sapphire di Tegal. Tim marketing sangat profesional dan membantu saya menemukan rumah yang sesuai dengan kebutuhan keluarga. Lokasi perumahan juga strategis banget. Terima kasih Sapphire Griya Modern!",
+            text: "Marketingnya ramah jadi cepat faham, lingkungannya juga nyaman sudah banyak warganya.",
         },
-        
     ]
 
     const [currentIndex, setCurrentIndex] = useState(0)

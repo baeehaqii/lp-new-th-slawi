@@ -27,7 +27,7 @@ export default function About() {
             {/* Container gambar */}
             <div className="about-image-container">
               <Image
-                src="https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761464611/Salinan_0509_th_5_ngt3k7.avif"
+                src="https://res.cloudinary.com/dx8w9qwl6/image/upload/v1762964976/th-slwi-47-1_afpm6g.avif"
                 alt="Sapphire Townhouse Slawi"
                 width={600}
                 height={450}

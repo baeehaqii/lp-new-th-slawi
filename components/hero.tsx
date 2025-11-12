@@ -17,17 +17,17 @@ export default function Hero() {
 
   const heroSlides = [
     {
-      image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761464611/Salinan_0509_th_jpg_zp1rnc.avif",
+      image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1762964978/th-slwi-54-1_e26ryi.avif",
       title: "Hunian Asri di Jantung Kota Slawi",
       description: "Strategis. Nyaman. Bernilai Tinggi.",
     },
     {
-      image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761464611/Salinan_0509_th_5_ngt3k7.avif",
+      image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1762964977/th-slwi-47-2_dhu3rx.avif",
       title: "Semua Kebutuhan Ada di Sekitar Anda",
       description: "Dekat alun-alun, sekolah unggulan, pusat belanja, stasiun, dan terminal.",
     },
     {
-      image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761464610/Salinan_0509_th_4_snvn3o.avif",
+      image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1762964976/th-slwi-47-1_afpm6g.avif",
       title: "Terjual Habis di Dua Pengembangan",
       description: "Kawasan yang konsisten jadi pilihan utama.",
     },
